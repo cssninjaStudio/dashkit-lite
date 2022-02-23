@@ -1,0 +1,80 @@
+/* Dashkit | 2022-2023 | CSS Ninja */
+
+/*
+    1. Card
+    2. Box
+    3. Flex Card
+*/
+
+/* ==========================================================================
+1. Card
+========================================================================== */
+
+.card {
+  box-shadow: var(--light-box-shadow);
+  border: 1px solid var(--card-border-color);
+
+  .card-footer {
+    .card-footer-item {
+      color: var(--medium-text);
+      transition: all 0.3s;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+2. Box
+========================================================================== */
+
+.box {
+  box-shadow: var(--light-box-shadow);
+  border: 1px solid var(--card-border-color);
+}
+
+/* ==========================================================================
+3. Flex Card
+========================================================================== */
+
+.flex-card {
+  position: relative;
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  border-radius: 0.5rem;
+  position: relative;
+  width: 100%;
+  transition: all 0.5s;
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  &.is-curved {
+    border-radius: 1rem;
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    &.is-bordered {
+      border-bottom: 1px solid var(--card-border-color);
+    }
+
+    &.is-spaced {
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-family: var(--font-alt);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--title-color);
+    }
+  }
+}
