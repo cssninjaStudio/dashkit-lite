@@ -1,5 +1,5 @@
 # 👋 Dashkit Lite
-> Dashkit is a free dashboard kit UI starter built by [cssninjaStudio](https://cssninja.io).
+> Dashkit Lite is a free dashboard kit UI starter built by [cssninjaStudio](https://cssninja.io).
 
 ![Screenshot](https://media.cssninja.io/products/dashkit/product.png "Dashkit")
 
