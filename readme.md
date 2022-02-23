@@ -1,11 +1,11 @@
-# 👋 Dashkit
-> Dashkit is a dashboard kit UI template built by [cssninjaStudio](https://cssninja.io).
+# 👋 Dashkit Lite
+> Dashkit is a free dashboard kit UI starter built by [cssninjaStudio](https://cssninja.io).
 
 ![Screenshot](https://media.cssninja.io/products/dashkit/product.png "Dashkit")
 
 ## ✌️ preview
 
-Check out the live demo by clicking [here](https://dashkit.cssninja.io/). 
+Check out the live demo (full product) by clicking [here](https://dashkit.cssninja.io/). 
 Dashkit is built with [Bulma](https://bulma.io) and [Alpine JS](https://github.com/alpinejs/alpine).
 
 ## 👍 Features
