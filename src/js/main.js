@@ -3,7 +3,7 @@
 //Alpine JS and plugins import
 import Alpine from "alpinejs";
 import intersect from "@alpinejs/intersect";
-import collapse from '@alpinejs/collapse';
+import collapse from "@alpinejs/collapse";
 import Fern from "@ryangjchandler/fern";
 
 window.Alpine = Alpine;
@@ -29,20 +29,12 @@ Alpine.start();
 const feather = require("feather-icons");
 
 //Components
-import { env } from "./libs/utils/constants";
-import {
-  switchDemoImages,
-  insertBgImages,
-  initRipple,
-} from "./libs/utils/utils";
+import { insertBgImages, initRipple } from "./libs/utils/utils";
 import "./libs/components";
 import "./libs/pages";
 
 document.onreadystatechange = function () {
   if (document.readyState == "complete") {
-    //Switch demo images
-    const changeImages = switchDemoImages(env);
-
     //Switch backgrounds
     const changeBackgrounds = insertBgImages();
 

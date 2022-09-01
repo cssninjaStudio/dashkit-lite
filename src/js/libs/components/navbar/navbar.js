@@ -1,4 +1,4 @@
-import { searchData } from '../search/search';
+import { searchData } from "../search/search";
 
 export function initNavbar() {
   return {
@@ -22,7 +22,7 @@ export function initNavbar() {
     searchMocked(e) {
       let searchTerm = e.target.value;
       const batch = searchData(searchTerm);
-  },
+    },
 
     notificationsDropOpened: false,
     messagesDropOpened: false,
@@ -64,11 +64,14 @@ export function initNavbar() {
 
     openRightSidebar() {
       this.$store.app.isSidebarRightOpened = true;
-      console.log(`Trigger Right Sidebar`, this.$store.app.isSidebarRightOpened);
+      console.log(
+        `Trigger Right Sidebar`,
+        this.$store.app.isSidebarRightOpened
+      );
     },
 
     toggleReaderMode() {
-      document.querySelector('body').classList.toggle('reader-mode');
-    }
+      document.querySelector("body").classList.toggle("reader-mode");
+    },
   };
 }
