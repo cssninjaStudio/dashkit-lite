@@ -1,0 +1,70 @@
+.lite-cta {
+  position: fixed;
+  bottom: 2rem;
+  #{$end-direction}: 2rem;
+  background: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  border-radius: 0.75rem;
+  box-shadow: var(--light-box-shadow);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 280px;
+  z-index: 99999;
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      font-family: var(--font);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--title-color);
+      text-transform: uppercase;
+    }
+
+    button {
+      height: 2rem;
+      width: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: transparent;
+      color: var(--light-text);
+      font-size: 1.15rem;
+      border: none;
+      padding: 0;
+      outline: none;
+      transition: background-color .3s, color .3s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--wrap-muted-color);
+        color: var(--title-color);
+      }
+    }
+  }
+
+  .body {
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: var(--medium-text);
+  }
+
+  .foot {
+    text-align: center;
+
+    .button {
+      margin-bottom: 0.5rem;
+    }
+
+    .link {
+      font-family: var(--font);
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--primary);
+    }
+  }
+}
