@@ -3583,3 +3583,12 @@ a.navbar-item.is-active,
 .dashboard-tiles .dashboard-tile .view-all-button:hover i {
   color: rgb(255, 255, 255);
 }
+
+.widget.tweet-widget.is-branded .tweet-header .twitter-icon {
+  color: rgb(255, 255, 255);
+}
+
+.widget.tweet-widget.is-branded .tweet-content,
+.widget.tweet-widget.is-branded .hashtags span {
+  color: rgb(255, 255, 255);
+}
