@@ -1,19 +1,15 @@
 <!-- Sidebar menu 3 -->
-<ul
-  id="business-menu"
-  class="sidebar-menu"
-  :class="{
+<ul id="business-menu" class="sidebar-menu" :class=`{
       'is-active': $store.app.activeSidebar == 'business',
       '': !$store.app.activeSidebar != 'business'
-  }"
->
+  }`>
   <li
     class="have-children"
     @click="openSidebarMenu('business-menu-1')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'business-menu-1',
         '': !$store.app.activeSidebarMenu != 'business-menu-1'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">group</span>
@@ -28,10 +24,10 @@
   <li
     class="have-children"
     @click="openSidebarMenu('business-menu-2')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'business-menu-2',
         '': !$store.app.activeSidebarMenu != 'business-menu-2'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">work</span>
@@ -46,10 +42,10 @@
   <li
     class="have-children"
     @click="openSidebarMenu('business-menu-3')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'business-menu-3',
         '': !$store.app.activeSidebarMenu != 'business-menu-3'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">verified_user</span>

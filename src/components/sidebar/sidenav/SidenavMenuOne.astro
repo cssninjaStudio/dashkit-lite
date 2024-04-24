@@ -1,19 +1,15 @@
 <!-- Sidebar menu 1 -->
-<ul
-  id="dashboard-menu"
-  class="sidebar-menu"
-  :class="{
+<ul id="dashboard-menu" class="sidebar-menu" :class=`{
       'is-active': $store.app.activeSidebar == 'dashboard',
       '': !$store.app.activeSidebar != 'dashboard'
-  }"
->
+  }`>
   <li
     class="have-children"
     @click="openSidebarMenu('dashboard-menu-1')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'dashboard-menu-1',
         '': !$store.app.activeSidebarMenu != 'dashboard-menu-1'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">dashboard</span>
@@ -27,10 +23,10 @@
   <li
     class="have-children"
     @click="openSidebarMenu('dashboard-menu-2')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'dashboard-menu-2',
         '': !$store.app.activeSidebarMenu != 'dashboard-menu-2'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">insert_chart</span>
@@ -43,27 +39,27 @@
   <li
     class="have-children"
     @click="openSidebarMenu('dashboard-menu-3')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'dashboard-menu-3',
         '': !$store.app.activeSidebarMenu != 'dashboard-menu-3'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">developer_board</span>
       Widgets
     </a>
     <ul x-show="$store.app.activeSidebarMenu == 'dashboard-menu-3'" x-collapse>
-      <li><a href=/#"widgets-data">Data widgets</a></li>
+      <li><a href='/#"widgets-data"'>Data widgets</a></li>
       <li><a href="/#widgets-social">Social widgets</a></li>
     </ul>
   </li>
   <li
     class="have-children"
     @click="openSidebarMenu('dashboard-menu-4')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'dashboard-menu-4',
         '': !$store.app.activeSidebarMenu != 'dashboard-menu-4'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">view_agenda</span>
@@ -77,10 +73,10 @@
   <li
     class="have-children"
     @click="openSidebarMenu('dashboard-menu-5')"
-    :class="{
+    :class=`{
         'active': $store.app.activeSidebarMenu == 'dashboard-menu-5',
         '': !$store.app.activeSidebarMenu != 'dashboard-menu-5'
-    }"
+    }`
   >
     <a class="parent-link" href="javascript:;">
       <span class="material-icons">account_circle</span>
