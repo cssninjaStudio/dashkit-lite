@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/cssninjaStudio/dashkit-lite/compare/v2.2.0...v2.3.0) (2026-09-30)
+
+
+### ⚖️ License
+
+* relicense under MIT ([738b896](https://github.com/cssninjaStudio/dashkit-lite/commit/738b896eddac6d334f7a0b2a363d43c9139f9435))
+
 ## [2.2.0](https://github.com/cssninjaStudio/dashkit-lite/compare/v2.1.2...v2.2.0) (2024-04-24)
 
 ### [2.1.2](https://github.com/cssninjaStudio/dashkit-lite/compare/v2.1.1...v2.1.2) (2023-05-03)
